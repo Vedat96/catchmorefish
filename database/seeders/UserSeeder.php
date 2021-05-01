@@ -26,14 +26,14 @@ class UserSeeder extends Seeder
             'password' => Hash::make('12345678'),
         ]);
 
-        // DB::table('medewerker')->insert([
-        //     'voorletters' => Str::random(2),
-        //     'voorvoegsels' => Str::random(2),
-        //     'naam' => Str::random(10),
-        //     'achternaam' => Str::random(10),
-        //     'gebruikersnaam' => 'medewerker',
-        //     'admin_medewerker' => '0',
-        //     'password' => Hash::make('12345678'),
-        // ]);
+        DB::table('medewerker')->insert([
+            'voorletters' => Str::random(2),
+            'voorvoegsels' => Str::random(2),
+            'naam' => Str::random(10),
+            'achternaam' => Str::random(10),
+            'gebruikersnaam' => 'medewerker',
+            'admin_medewerker' => '0',
+            'password' => Hash::make('12345678'),
+        ]);
     }
 }
