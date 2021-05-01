@@ -10,7 +10,7 @@
 ## Instructions
 
 Hallo, om gebruik te kunnen maken van deze project moet je:
-- start APACHE en MYSQL (in XAMPP)
+- Start APACHE en MYSQL (in XAMPP)
 - Git clone bestand naar htdocs
 - Kopieër de .env example maak een nieuw .env bestand aan en plak het daarin
 - Wijzig de database naam naar de projectnaam in de .env: DB_DATABASE= "projectnaam"
